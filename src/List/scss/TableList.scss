@@ -1,0 +1,14 @@
+.table-box { width: 65%;
+    z-index: 100;
+    .table{
+        border: 2px solid #3949AB;  
+        width: 100%;
+        th{background: #3949AB; color: #fff;}
+        tbody{
+            tr{border: 2px solid #3949AB;
+            td{border: 2px solid #3949AB; vertical-align: middle; text-align: center; color:#dcdcdc; text-wrap: nowrap;}}
+            button{border: none; background: #3949AB; color: #dcdcdc;font-size: 20px; border-radius: 10px; vertical-align: middle; box-sizing: border-box; padding: 5px; margin:5px}
+        }
+        
+    }
+}
